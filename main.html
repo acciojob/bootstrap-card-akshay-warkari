@@ -4,10 +4,36 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<title>Bootstrap Cards</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container mt-5">
+        <div class="card-deck">
+            <div class="card bg-primary text-white">
+                <div class="card-header">Welcome to Sync5</div>
+                <img src="https://media.istockphoto.com/id/136694393/photo/female-swimmer-underwater-flowing-on-blue-background.jpg?s=612x612&w=0&k=20&c=gf8mYw8lhbXAV1R2cD-1mYLpuO14rnuVSj_tCm7s31I=" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New Features</h5>
+                    <p class="card-text">With this new update you will be able to sync your work across a large number of platforms.</p>
+                    <a href="#" class="btn btn-light">Read more</a>
+                </div>
+                <div class="card-footer text-muted">Last updated 12 mins ago</div>
+            </div>
+            
+            <div class="card bg-danger text-white">
+                <div class="card-header">Alert</div>
+                <div class="card-body">
+                    <h5 class="card-title">Node Dead</h5>
+                    <p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
+                    <a href="#" class="btn btn-light">Read more</a>
+                </div>
+                <div class="card-footer text-muted">Last updated 12 mins ago</div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
